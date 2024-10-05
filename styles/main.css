@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+.section {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #007bff;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+#hero {
+    background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)), url('https://via.placeholder.com/1920x1080') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+#hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#hero p {
+    font-size: 1.5rem;
+}
+.skill-item {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    margin-left: -1px;
+    background-color: #e9ecef;
+}
+.timeline > li {
+    position: relative;
+    margin-bottom: 50px;
+}
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li .timeline-panel {
+    float: left;
+    position: relative;
+    width: 46%;
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}
+.timeline > li .timeline-panel:before {
+    right: -15px;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #e9ecef;
+    border-right: 0 solid #e9ecef;
+    border-bottom: 15px solid transparent;
+    content: " ";
+    position: absolute;
+    top: 26px;
+    display: inline-block;
+}
+.timeline > li .timeline-panel:after {
+    right: -14px;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+    position: absolute;
+    top: 27px;
+    display: inline-block;
+}
+.timeline > li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+}
+.timeline > li .timeline-image h4 {
+    font-size: 10px;
+    margin-top: 12px;
+    line-height: 14px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    left: -15px;
+    right: auto;
+    border-left-width: 0;
+    border-right-width: 15px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    left: -14px;
+    right: auto;
+    border-left-width: 0;
+    border-right-width: 14px;
+}
