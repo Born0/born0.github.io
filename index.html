@@ -1,79 +1,975 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD.SIRAJUDDIN BORNO - Full Stack Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="styles/main.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-PGZH8HT');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Materialize - Compiled and minified CSS-->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+	<!-- Font Awesome Icon - CSS-->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+	<!-- Custom Styles-->
+	<link rel="stylesheet" href="/assets/css/style.css" />
+	<link rel="stylesheet" href="styles/back-to-top.css">
+	<title>Sirajuddin Borno | Software Engineer</title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-126939217-2');
+	</script>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#hero">MD.SIRAJUDDIN BORNO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe>
+	</noscript>
+
+	<!-- Navigation Menu-->
+	<!-- Nav class 1 -->
+	<nav class="hide-on-small-only">
+		<ul class="side-nav fixed section table-of-contents">
+
+			<li class="logo">
+				<a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+					class="brand-logo grey-blue-text">
+					<img src="/assets/img/sb/r8.crop.jpg" class="circle img-responsive profile-pic" alt="avatar">
+				</a>
+			</li>
+
+			<li class="bold">
+				<a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+						class="mdi-social-person small"></i><span>About</span></a>
+			</li>
+			<li class="bold">
+				<a aria-label="Navigate to the Experience section" href="#experience"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-action-trending-up small"></i><span>Experience</span></a>
+			</li>
+
+			<li class="bold">
+				<!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+				<a aria-label="Navigate to the Projects section" href="#projects"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+			</li>
+
+			<li class="bold">
+				<!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+				<a aria-label="Navigate to the Skills section" href="#skills"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-action-assessment small"></i><span>Skills</span></a>
+			</li>
+
+			<li class="bold">
+				<!--
+        ICONS:
+        -->
+				<a aria-label="Navigate to the Education section" href="#education"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-social-school small"></i><span>Education</span></a>
+			</li>
+
+			<li class="bold">
+				<!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+				<a aria-label="Navigate to the Contact section" href="#contact"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-content-mail small"></i><span>Contact</span></a>
+			</li>
+
+			<li class="bold">
+				<a aria-label="Open Sirajuddin's resume in a new tab" href="assets/resume/Sirajuddin Borno CV.pdf"
+					target="_blank" class="waves-effect waves-dark teal-text"><i
+						class="mdi-file-folder-open small"></i><span>Resume</span></a>
+			</li>
+		</ul>
+	
+	</nav>
+
+	<!-- Nav class 2 -->
+	<nav class="hide-on-large only trigger z-depth-1">
+		<a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+			class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+		<div class="name-title">
+			<a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">MD.SIRAJUDDIN
+				BORNO</a><span class="black-text">Software Engineer</span>
+		</div>
+	</nav>
+
+	<!-- Nav class 3 -->
+	<nav class="hide-on-large only">
+		<ul id="slide-out" class="side-nav">
+			<li class="bold">
+				<a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+						class="mdi-social-person small"></i><span>About</span></a>
+			</li>
+			<li class="bold">
+				<a aria-label="Navigate to the Experience section" href="#experience"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-action-trending-up small"></i><span>Experience</span></a>
+			</li>
+			<li class="bold">
+				<a aria-label="Navigate to the Projects section" href="#projects"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+			</li>
+			<li class="bold">
+				<a aria-label="Navigate to the Skills section" href="#skills"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-action-assessment small"></i><span>Skills</span></a>
+			</li>
+
+			<li class="bold">
+				<a aria-label="Navigate to the Education section" href="#education"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-social-school small"></i><span>Education</span></a>
+			</li>
+			<li class="bold">
+				<a aria-label="Navigate to the Contact section" href="#contact"
+					class="waves-effect waves-dark teal-text"><i
+						class="mdi-content-mail small"></i><span>Contact</span></a>
+			</li>
+			<li class="bold">
+				<a aria-label="Open Sirajuddin's Resume in a new tab" href="/assets/resume/Sirajuddin Borno CV.pdf"
+					target="_blank" class="waves-effect waves-dark teal-text"><i
+						class="mdi-file-folder-open small"></i><span>Resume</span></a>
+			</li>
+		</ul>
+			
+	
+	</nav>
+
+	<!-- Main Content-->
+	<main>
+		<!-- First Section: Heading lines and image -->
+		<section id="intro" class="section scrollspy full-height">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="col-md-9">
+					<div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+						<div class="caption">
+							<h2>Hi, I'm <span class="teal">Sirajuddin Borno</span></h2>
+							<h5 style="color:#fff">A <span class="typing"
+									style="font-weight: 300; color:#004d40"></span></h5>
+							<!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+							<h5>Experienced Software Engineer with more than 2 years
+								of industry experience. Proven ability to
+								deliver high-quality software solutions with
+								strong understanding of SDLC in a web
+								development environment.</h5>
+						</div>
+						<div class="social">
+							<a href="https://www.linkedin.com/in/sirajuddin-borno/" target="_blank">
+								<button class="icon-btn linkedin">
+									<i class="fa fa-linkedin"></i>
+								</button>
+							</a>
+							<a href="https://github.com/Born0" target="_blank">
+								<button class="icon-btn github">
+									<i class="fa fa-github"></i>
+								</button>
+							</a>
+
+							<!-- <a href="https://angel.co/u/varad_bhogayata" target="_blank">
+                <button class="icon-btn angellist">
+                  <i class="fa fa-angellist"></i>
+                </button>
+              </a> -->
+
+							<!-- <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
+                  </span>
+              </a> -->
+						</div>
+						<div class='buttons'>
+							<a href="#about" class="readme">Read More</a>
+							<a href="#contact" class="contactme">Contact Me</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Second Section: About -->
+		<section id="about" class="section scrollspy">
+			<h3 class="page-title white-text teal">About</h3>
+			<div class="container flow-text">
+				<!-- <blockquote>
+          <h2>
+            A Software Developer with a passion for Backend Development and Artificial Intelligence.
+
+          </h2>
+        </blockquote> -->
+				<p>
+					Experienced Software Engineer with more than 2 years of industry experience. Proven ability to
+					deliver
+					high-quality software solutions with
+					strong understanding of SDLC in a web development environment. Expertise in .NET, PostgreSQL,
+					jQuery, and
+					Laravel. Key responsibilities
+					include R&D, API integration and development, including WhatsApp Business Cloud API, MS QnA API,
+					Google Map
+					API, and
+					Azure Bot Framework. Additionally, proficient in VR development with Unity and has a publication in
+					Springer
+					on VR. Currently managing
+					a Laravel application and expert in application migration, demonstrating versatility across multiple
+					technologies and frameworks.
+				</p>
+				<p>
+				<ul>
+					<li><b>Languages:</b> C#, JavaScript, PHP, Python, Java, C++, HTML/CSS, SQL</li>
+					<li><b>Databases:</b> PostgreSQL, SQL Server, MySQL, MariaDB</li>
+					<li><b>Libraries:</b> jQuery, Syncfusion</li>
+					<li><b>Frameworks:</b> .NET Framework, .NET Core, Laravel, Bootstrap</li>
+					<li><b>API Integration:</b>Ai Chat-bot, WhatsApp Business Cloud API, Google Map API, MS QnA API,
+						Azure Bot Framework, Azure Document Intelligence</li>
+					<li><b>Tools & Technologies:</b> Git, Azure, Unity, Postman, Visual Studio, VS Code</li>
+					<li><b>AI & Research:</b> Proficient in crafting effective prompts for generative AI to obtain
+						accurate
+						responses, strong information retrieval skills</li>
+				</ul>
+
+				</p>
+
+				<!-- <p>
+          
+          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
+        </p> -->
+				<!-- <p>
+          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering,
+          which provides professional development, interesting experiences and personal growth.
+        </p> -->
+				<!-- <p>
+          Another Paragraph
+        </p>  -->
+				<!-- <p>
+        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
+          aria-label='Navigate to the article "Scalable CSS"'
+          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
+        </p> -->
+			</div>
+		</section>
+
+
+		<!-- Third Section: Experience -->
+		<section id="experience" class="section scrollspy">
+			<h3 class="page-title white-text teal">Experience</h3>
+			<div class="container">
+
+				<!-- Latest Experience -->
+				<div class="card">
+					<div class="card-content">
+						<div class="row">
+							<div class="col s12 m2">
+								<a href="https://www.impulsebdltd.com/" target="_blank"><img alt="Impulse (BD) LTD"
+										src="https://www.impulsebdltd.com/wp-content/themes/Akal-Child/images/IMpulse_Logo.png"
+										class="responsive-img center-block" /></a>
+							</div>
+							<!-- <div class="col s12 m10"> -->
+							<div class="col s12 m10">
+								<p>
+									<span class="card-title"><a href="https://www.impulsebdltd.com/" target="_blank"
+											class="teal-text hoverline">Impulse (BD) LTD</a></span>
+								</p>
+							</div>
+						</div>
+						<div class="role brown-text text-darken-2">Software Engineer</div>
+						<ul>
+							<li>
+								Integrated the WhatsApp Business Cloud API with an existing .Net API, enabling 1000+
+								weekly
+								interactions.
+							</li>
+							<li>
+								Implemented the integration of Microsoft QnA API and Azure Bot Framework, resulting in
+								automated
+								communication with accurate search results and improved customer service.
+							</li>
+							<li>
+								Currently responsible for the maintenance, management and migration of a scientific
+								journal
+								management system
+								developed using Laravel, serving the needs of a pharmaceutical company.
+							</li>
+							<li>
+								Contributed to the development of a Hotel Management System, including the
+								implementation of a voice
+								command chatbot capable of taking in-house orders and making reservations.
+							</li>
+						</ul>
+					</div>
+					<div class="card-action">
+						<span><i class="fa fa-calendar"></i> July 2023 – Present | Dhaka, Bangladesh</span>
+					</div>
+				</div>
+
+
+				<div class="card">
+					<div class="card-content">
+						<div class="row">
+							<div class="col s12 m2">
+								<a href="https://www.impulsebdltd.com/" target="_blank"><img alt="Impulse (BD) LTD"
+										src="https://www.impulsebdltd.com/wp-content/themes/Akal-Child/images/IMpulse_Logo.png"
+										class="responsive-img center-block" /></a>
+							</div>
+							<!-- <div class="col s12 m10"> -->
+							<div class="col s12 m10">
+								<p>
+									<span class="card-title"><a href="https://www.impulsebdltd.com/" target="_blank"
+											class="teal-text hoverline">Impulse (BD) LTD</a></span>
+								</p>
+							</div>
+						</div>
+						<div class="role brown-text text-darken-2">Junior software Engineer</div>
+						<ul>
+							<li>
+								Contributed to the development of a villa rental website, with intuitive
+								UI design, optimizing performance through the creation of efficient
+								stored procedures and triggers, and integrating Google Maps API
+							</li>
+							<li>
+								Played a key role in the development of a boat rental website,
+								collaborating with senior team members to conduct R&D, designing UI,
+								implementing pricing and package model, developing a streamlined
+								booking-form, and integrating a secure payment system.
+
+							</li>
+							<li>
+								Improved functionality and performance of an Event Management
+								System through implementing enhancements to existing features
+								<!-- </li>
+							<b>Tools:</b> Python, Flask, OpenCV, Keras, Tensorflow, PyTorch
+							</li> -->
+						</ul>
+					</div>
+					<div class="card-action">
+						<span>July 2022 –June,2023 | Dhaka, Bangladesh</span>
+					</div>
+				</div>
+
+				<!-- Experience 2 -->
+				<div class="card">
+					<div class="card-content">
+						<div class="row">
+							<div class="col s12 m2">
+								<a href="https://www.aiub.edu/" target="_blank"><img alt="Impulse (BD) LTD"
+										src="https://www.aiub.edu/Files/Templates/NewAIUB/assets/images/aiub-logo.svg"
+										class="responsive-img center-block" /></a>
+							</div>
+							<!-- <div class="col s12 m10"> -->
+							<div class="col s12 m10">
+								<p>
+									<span class="card-title"><a href="https://www.aiub.edu/" target="_blank"
+											class="teal-text hoverline">American International <br>
+											University-Bangladesh </a></span>
+								</p>
+							</div>
+						</div>
+						<div class="role brown-text text-darken-2">Student Intern</div>
+						<ul>
+							<li>
+								Assisted students by guiding them in setting up lab environments and
+								resolving software bugs. Introducing students with Visual Studio,
+								version control with GitHub and other tools.
+							</li>
+						</ul>
+					</div>
+					<div class="card-action">
+						<span>Sep 2021 - Dec 2021 | Dhaka, Bangladesh</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Fourth Section: Projects -->
+		<section id="projects" class="section scrollspy">
+			<h3 class="page-title white-text teal">University/Personal Projects</h3>
+			<div class="container">
+				<div class="row">
+
+					<div class="col s12 m6 l4">
+						<div class="card medium">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img alt="music streaming app" src="/assets/img/sb/e-com.png"
+									style="height: 100%; width: 100%" class="activator" />
+							</div>
+							<div class="card-content">
+								<span class="card-title activator teal-text hoverline">EHut<i
+										class="mdi-navigation-more-vert right"></i></span>
+								<p>
+									E-Commerce application built with ASP.NET API, ntier architecture
+								</p>
+							</div>
+							<div class="card-reveal" style="font-size: small;">
+								<!-- TODO: change this -- only close button -->
+								<!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+								<span class="card-title grey-text"><small>Accomplishments</small><i
+										class="mdi-navigation-close right"></i></span>
+								<ul>
+									<li><b>Tools:</b>ASP.NET API, ntier architecture, Visual Studio, Postman, GitHub
+									</li>
+									<li><b>Description:</b><br>
+										Mainly in Dhaka city where people are doing their job and can't find
+										enough time to go to the grocery store every week to buy their groceries. Who
+										goes shopping most of the time goes without a proper shopping list and spends
+										more than their need. That's why we are offering a smart web service that can
+										suggest them make a proper shopping list.
+
+										<!-- Customers can always edit the suggestion based on their needs. Then customers
+										can order those products online. We will deliver products weekly. The best part
+										is customers can make payments monthly and they can choose a specific time limit
+										on a specific day of the week when s/he wants the delivery (e.g. 7 pm-9 pm,
+										Monday). This way customers can save time and save themselves from overspending. -->
+										<br><br>
+								</ul>
+								<div class="card-action">
+									<!-- <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank"
+										data-position="top" data-tooltip="View Online"
+										class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+											class="fa fa-external-link"></i></a> -->
+									<a aria-label="Visit the GitHub repo for  project"
+										href="https://github.com/khoab17/Software_Project_2-EHut-" target="_blank"
+										data-position="top" data-tooltip="View Source"
+										class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+											class="fa fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m6 l4">
+						<div class="card medium">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img alt="quiz app" src="/assets/img/sb/Coaching-Management-Systems.webp"
+									style="height: 100%; width: 100%" class="activator" />
+							</div>
+							<div class="card-content">
+								<span class="card-title activator teal-text hoverline">Binary ICT Park<i
+										class="mdi-navigation-more-vert right"></i></span>
+								<p>
+									Coaching Management System built with ASP.Net WinForms
+								</p>
+							</div>
+							<div class="card-reveal" style="font-size: small;">
+								<!-- TODO: change this -- only close button -->
+								<!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+								<span class="card-title grey-text"><small>Accomplishments</small><i
+										class="mdi-navigation-close right"></i></span>
+								<ul>
+									<li><b>Tools:</b> .Net WinForms, Visual Studio, SQL Server, GearHost </li>
+									<li>Dashboard, Analytics ,Student Management, Attendance, Payment Control(Discount,
+										instalment)</li>
+
+
+								</ul>
+								<div class="card-action">
+									<a aria-label="Visit the GitHub repo for  project"
+										href="https://github.com/Born0/Tuition-Management-System" target="_blank"
+										data-position="top" data-tooltip="View Source"
+										class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+											class="fa fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Flask Project -->
+					<div class="col s12 m6 l4">
+						<div class="card medium">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img alt="Screenshot of web app" src="/assets/img/sb/p7.jpg"
+									style="height: 100%; width: 100%" class="activator" />
+							</div>
+							<div class="card-content">
+								<span class="card-title activator teal-text hoverline">Alphabet learning web-game<i
+										class="mdi-navigation-more-vert right"></i></span>
+								<p>
+									Alphabet learning web-game built with Unity-3D.
+								<p>This Game is live and you can <a href="https://born0.itch.io/alphabet-game-web-gl"
+										target="_blank">try it here</a></p>
+								</p>
+							</div>
+							<div class="card-reveal">
+								<!-- TODO: change this -- only close button -->
+								<!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+								<span class="card-title teal-text"><small>Accomplishments</small><i
+										class="mdi-navigation-close right"></i></span>
+								<ul>
+									<li><b>Tools:</b> Unity-3D, Web-AR and few open source models</li>
+									<li>This web game is for pre-school kinds. This way they can interact with 3D models
+										and learn letters, names and spelling</li </ul>
+									<div class="card-action">
+										<a aria-label="Visit the GitHub repo for  project"
+											href="https://github.com/Born0/Alphabet-game" target="_blank"
+											data-position="top" data-tooltip="View Source"
+											class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+												class="fa fa-github"></i></a>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- ************* -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Fifth Section: Skills -->
+		<section id="skills" class="section scrollspy">
+			<h3 class="page-title white-text teal">Skills</h3>
+			<div class="container">
+				<!-- Languages and Databases -->
+				<div class="card">
+					<div class="card-content">
+						<h4 class="brown-text light">Languages and Databases</h4>
+						<div class="row text-center">
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/CS.png" class="responsive-img" />C#
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/java.webp" class="responsive-img" />Java
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/cpp.png" class="responsive-img" />C++
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/js.webp" class="responsive-img" />JavaScript
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/php.png" class="responsive-img" />PHP
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/python-logo-1-300x300.jpg"
+									class="responsive-img" />Python
+							</div>
+							<!-- <div class="col s4 m2">
+								<img alt="" src="/assets/img/sb"
+									class="responsive-img" />
+							</div> -->
+
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/html5-300x300.jpg" class="responsive-img" />HTML5
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/css3-300x300.jpg" class="responsive-img" />CSS3
+							</div>
+
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/postgresql-logo.png" class="responsive-img" />PostgreSQL
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/sqlServer.jpg" class="responsive-img" />SQL Server
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/mariaDB.png" class="responsive-img" />MariaDB
+							</div>
+							<!-- <div class="col s4 m2">
+								<img alt="" src="/assets/img/others/mysql-logo-1-300x300.jpg"
+									class="responsive-img" />MySQL
+							</div> -->
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/shell-logo-1-300x300.jpg" class="responsive-img" />Shell
+								Scripting
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-content">
+						<h4 class="brown-text light">Libraries</h4>
+						<div class="row text-center">
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/jquery.png" class="responsive-img" />jQuery
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/syncFusion.png" class="responsive-img" />syncFusion
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Frameworks -->
+				<div class="card">
+					<div class="card-content">
+						<h4 class="brown-text light">Frameworks</h4>
+						<div class="row text-center">
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/asp-net.jpg" class="responsive-img" />ASP.Net
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/net-core.png" class="responsive-img" />.Net Core
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/laravel.jpg" class="responsive-img" />Laravel
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/bootstrap.png" class="responsive-img" />Bootstrap
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Other -->
+				<div class="card">
+					<div class="card-content">
+						<h4 class="brown-text light">Other</h4>
+						<div class="row text-center">
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/azure.png" class="responsive-img" />Azure
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/git.png" class="responsive-img" />Git
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/svn.jpg" class="responsive-img" />SVN
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/glitch.png" class="responsive-img" />Glitch
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/gearHost.webp" class="responsive-img" />GearHost
+							</div>
+							<div class="col s4 m2">
+								<img alt="" src="/assets/img/sb/postman.webp" class="responsive-img" />Postman
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- certifications -->
+				<!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/others/mooc-machine-learning-coursera-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/others/mooc-algorithms-stanford-2-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </nav>
+          </div>
+        </div> -->
 
-    <section id="hero">
-        <div class="container">
-            <h1>MD.SIRAJUDDIN BORNO</h1>
-            <p>Full Stack Developer</p>
-        </div>
-    </section>
+			</div>
+		</section>
 
-    <div id="about"></div>
-    <div id="experience"></div>
-    <div id="skills"></div>
-    <div id="education"></div>
-    <div id="projects"></div>
-    <div id="contact"></div>
+		<!-- Seventh Section: Education -->
+		<section id="education" class="section scrollspy">
+			<h3 class="page-title white-text teal">Education</h3>
+			<div class="container">
+				<div class="row">
+					<!-- Education -->
+					<div class="col s12 m6 l6">
+						<div class="card">
+							<div class="card-content">
+								<p>
+									<span class="card-title"><a href="https://www.ru.ac.bd/" target="_blank"
+											class="teal-text hoverline">University of Rajshahi</a></span>
+								</p>
+								<p class="brown-text">Rajshahi, Bangladesh</p>
+								<p>
+									<b>Degree: </b>Master of Engineering in Computer Science
+									<br>
+									<b> July, 2024 - Ongoing
+								</p>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 MD.SIRAJUDDIN BORNO. All rights reserved.</p>
-    </footer>
+								<!-- <ul>
+									<p>
+										<b>Relevant Courseworks:</b>
+									<ul>
+										<li>Distributed Database Systems</li>
+										<li>Cloud Computing</li>
+										<li>Foundations of Algorithms</li>
+									</ul>
+									</p>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <!-- <script type="text/javascript">
+								</ul> -->
+							</div>
+						</div>
+
+
+					</div>
+					<div class="col s12 m6 l6">
+						<div class="card">
+							<div class="card-content">
+								<p>
+									<span class="card-title"><a href="https://www.aiub.edu/" target="_blank"
+											class="teal-text hoverline">American International University -
+											Bangladesh(AIUB)</a></span>
+								</p>
+								<p class="brown-text">Dhaka, Bangladesh</p>
+								<p>
+									<b>Degree: </b>Bachelor of Science in Computer Science and Software Engineering
+									(CSSE)
+									<br>
+								<p>2018 - 2021</p>
+								<b>CGPA: </b>3.75/4
+								</p>
+
+								<!-- <ul>
+									<p>
+										<b>Relevant Courseworks:</b>
+									<ul>
+										<li>Data Structures and Algorithms</li>
+										<li>Database Management Systems</li>
+										<li>Operating Systems</li>
+										<li>Machine Learning</li>
+										<li>Computer Vision</li>
+									</ul>
+									</p>
+
+								</ul> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Eight Section: Contact -->
+		<section id="contact" class="section scrollspy full-height">
+			<h3 class="page-title white-text teal">Contact</h3>
+			<div class="container">
+				<div>
+					<p>
+						<a aria-label="Call Sirajuddin" data-position="top" data-tooltip="Call Sirajuddin"
+							class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+								class="fa fa-phone"></i><a aria-label="Call Sirajuddin">+8801704992725</a></a>
+					</p>
+					<p>
+						<a aria-label="Email Sirajuddin" href="mailto:bornoahmed2@gmail.com" target="_blank"
+							data-position="top" data-tooltip="Email Sirajuddin"
+							class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+								class="fa fa-envelope"></i><a aria-label="Email Sirajuddin"
+								href="mailto:bornoahmed2@gmail.com" class="hoverline">bornoahmed2@gmail.com</a></a>
+					</p>
+					<p>
+						<a aria-label="View Sirajuddin on GitHub" href="https://github.com/Born0" target="_blank"
+							data-position="top" data-tooltip="View Sirajuddin on GitHub"
+							class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+								class="fa fa-github"></i><a aria-label="Sirajuddin on Github"
+								href="https://github.com/Born0" class="hoverline"
+								target="_blank">github.com/Born0</a></a>
+					</p>
+					<p>
+						<a aria-label="View Sirajuddin on LinkedIn" href="https://www.linkedin.com/in/sirajuddin-borno/"
+							target="_blank" data-position="top" data-tooltip="View Sirajuddin on LinkedIn"
+							class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+								class="fa fa-linkedin"></i><a aria-label="Sirajuddin on LinkedIn"
+								href="https://www.linkedin.com/in/sirajuddin-borno/" class="hoverline"
+								target="_blank">linkedin.com/in/sirajuddin-borno</a></a>
+					</p>
+				</div>
+				<div class="row">
+					<h4 class="center-align teal-text">Send Me a Message</h4>
+					<p class="center-align">Have a question or want to get in touch? Feel free to send me a message!</p>
+					<form id="form" class="col s12">
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="from_name" name="from_name" type="text" class="validate" required>
+								<label for="from_name">Name*</label>
+								<span class="helper-text" data-error="Please enter your name"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="reply_to" name="reply_to" type="email" class="validate" required>
+								<label for="reply_to">Email*</label>
+								<span class="helper-text" data-error="Please enter a valid email address"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<textarea id="message" name="message" class="materialize-textarea" required></textarea>
+								<label for="message">Message*</label>
+								<span class="helper-text" data-error="Please enter your message"></span>
+							</div>
+						</div>
+						<button class="btn waves-effect waves-light" type="submit" id="submit">Send Message
+							<i class="mdi-content-send right"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- typed.js -->
+	<script src="assets/vendor/typed.js/typed.min.js"></script>
+	<script type="text/javascript">
+		var typed = new Typed('.typing', {
+			strings: [
+				"Full Stack Developer",
+				".NET Developer",
+				//"Software Engineer",
+				"Machine Learning Enthusiast",
+				"Problem Solver",
+				"Promt Engineer"
+			],
+			loop: true,
+			typeSpeed: 80,
+			backSpeed: 40
+		});
+	</script>
+
+
+	<!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<!-- Materialize - Compiled and minified JavaScript-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<!-- <script type="text/javascript">
         emailjs.init({
-            publicKey: '1BJOQ15X_Di-al1yx'
+            publicKey: '1BJOQ15X_Di-al1yx-sb' //check -initial
         });
     </script> -->
-    <script type="text/javascript">
-        emailjs.init('1BJOQ15X_Di-al1yx')
-    </script>
-    <script src="src/script.js"></script>
+	<script type="text/javascript">
+		emailjs.init('1BJOQ15X_Di-al1yx')
+	</script>
 
+	<script>
+		// Materialize - Initializers
+		$(document).ready(function () {
+			$(".scrollspy").scrollSpy()
+			// Initialize collapse button
+			$(".button-collapse").sideNav({
+				menuWidth: 190, // Default is 240
+				edge: "left", // Choose the horizontal origin
+				closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+			})
+
+			// Scroll to top button
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 300) {
+					$('#scrollToTopBtn').fadeIn();
+				} else {
+					$('#scrollToTopBtn').fadeOut();
+				}
+			});
+
+			$('#scrollToTopBtn').click(function () {
+				$('html, body').animate({ scrollTop: 0 }, 300);
+				return false;
+			});
+
+			// Contact form submission
+			$(document).on('click', '#submit', function (event) {
+				// Validate name
+				var name = $('#from_name').val().trim();
+				if (name === '') {
+					alert('Please enter your name.');
+					return;
+				}
+
+				// Validate email
+				var email = $('#reply_to').val().trim();
+				var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+				if (email === '' || !emailRegex.test(email)) {
+					alert('Please enter a valid email address.');
+					return;
+				}
+
+				// Validate message
+				var message = $('#message').val().trim();
+				if (message === '') {
+					alert('Please enter a message.');
+					return;
+				}
+
+				// If all validations pass, proceed with sending the email
+				sendMail(event);
+			});
+
+		});
+
+		function sendMail(event) {
+			event.preventDefault();
+
+			var btn = $('#submit');
+			btn.text('Sending...');
+
+			const serviceID = 'bornoahmed2-mail-service';
+			const templateID = 'template-contact-form';
+
+			var templateParams = {
+				from_name: $('#from_name').val(),
+				reply_to: $('#reply_to').val(),
+				message: $('#message').val()
+			};
+			// Add a timeout of 3 seconds before sending the email
+			setTimeout(() => {
+				btn.text('Send Message');
+				alert('Sent!');
+			}, 3000);
+			return;
+			emailjs.send(serviceID, templateID, templateParams)
+				.then(function () {
+					btn.text('Send Message');
+					alert('Sent!');
+				}, function (err) {
+					btn.text('Send Message');
+					alert(JSON.stringify(err));
+				});
+		}
+	</script>
 </body>
 
 </html>
