@@ -56,6 +56,7 @@ function sendMail(event) {
     event.preventDefault();
 
     var btn = $('#submit');
+    btn.css('background-color','#a7d1cd')
     btn.text('Sending...');
 
     const serviceID = 'bornoahmed2-mail-service';
@@ -66,18 +67,30 @@ function sendMail(event) {
         reply_to: $('#reply_to').val(),
         message: $('#message').val()
     };
-    // Add a timeout of 3 seconds before sending the email
-    setTimeout(() => {
-        btn.text('Send Message');
-        alert('Sent!');
-    }, 3000);
-    return;
+    $('#from_name').val('');
+$('#reply_to').val('');
+$('#message').val('');
+    //Add a timeout of 3 seconds before sending the email
+    // setTimeout(() => {
+    //     btn.text('Send Message');
+    //     btn.text('Message Sent!');
+    //     btn.css('background-color','#2bbbad')
+    //         setTimeout(() => {
+    //             btn.text('Send Message');
+    //         }, 1500);
+    // }, 3000);
+    // return;
     emailjs.send(serviceID, templateID, templateParams)
         .then(function () {
-            btn.text('Send Message');
-            alert('Sent!');
+            btn.text('Message Sent!');
+            btn.css('background-color','#2bbbad')
+            setTimeout(() => {
+                btn.text('Send Message');
+            }, 1500);
         }, function (err) {
             btn.text('Send Message');
-            alert(JSON.stringify(err));
+            btn.css('background-color','#2bbbad')
+            console.log(JSON.stringify(err));
+            alert("There was a problem sending this message. Please try other method of communications")
         });
 }

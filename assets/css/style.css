@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #004d40 !important;
 }
 
 /* main blockqoute */
@@ -373,6 +373,9 @@ h3 {
 .card {
   margin-bottom: 60px;
 }
+.card a{
+  text-transform: none;
+}
 
 .card .role {
   font-size: 1.25rem;
@@ -385,6 +388,7 @@ h3 {
   margin-right: 0;
   color: #333;
   border-bottom: 2px solid #ffab40;
+  /* border-bottom: 2px solid #008073; */
 }
 
 .card li a:hover {
