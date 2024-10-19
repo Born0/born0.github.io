@@ -167,7 +167,7 @@ function setWeather(current, locationName) {
     
     const $weatherDiv = $('#weather');
     $weatherDiv.css({
-        backgroundColor: 'transparent',
+        backgroundColor:backgroundColor,
         color: textColor,
         padding: '20px',
         borderRadius: '15px',
@@ -183,19 +183,21 @@ function setWeather(current, locationName) {
         marginTop: '35px',
         fontFamily: 'Roboto',
         fontSize: 'larger',
-        backgroundImage: `url('assets/img/weather/weather-bg-${isDay ? 'day' : 'night'}.jpg')`,
-        //backgroundImage: `url('assets/img/weather/weather-bg-night2.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        //backgroundColor: 'transparent',
+        // backgroundImage: `url('assets/img/weather/weather-bg-${isDay ? 'day' : 'night'}.jpg')`,
+        // backgroundSize: 'cover',
+        // backgroundPosition: 'center',
+        // backgroundRepeat: 'no-repeat'
     });
 
     const currentTime = new Date();
     const hours = currentTime.getHours();
     let greeting;
-    if (hours >= 5 && hours < 12) {
+    if (hours >= 5 && hours < 11) {
         greeting = "Good Morning";
-    } else if (hours >= 12 && hours < 17) {
+    } else if(hours >= 12 && hours < 15){
+        greeting = "Good Noon";
+    } else if (hours >= 15 && hours < 17) {
         greeting = "Good Afternoon";
     } else if (hours >= 17 && hours < 20) {
         greeting = "Good Evening";
