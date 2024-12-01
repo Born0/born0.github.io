@@ -163,7 +163,7 @@ function setWeather(current, locationName) {
     
     const isDay = current.is_day === 1;
     const backgroundColor = isDay ? 'rgb(39 193 178 / 50%)' : 'rgb(11 61 56 / 18%)';
-    const textColor = isDay ? '#000000' : '#FFFFFF';
+    const textColor = isDay ? 'rgb(44 41 47 / 81%)' : '#FFFFFF';
     
     const $weatherDiv = $('#weather');
     $weatherDiv.css({
@@ -181,7 +181,7 @@ function setWeather(current, locationName) {
         minHeight: '265px',
         maxHeight: '90%',
         marginTop: '35px',
-        fontFamily: 'Roboto',
+        fontFamily: 'cursive',
         fontSize: 'larger',
         //backgroundColor: 'transparent',
         // backgroundImage: `url('assets/img/weather/weather-bg-${isDay ? 'day' : 'night'}.jpg')`,
